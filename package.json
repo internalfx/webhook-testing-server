@@ -1,0 +1,51 @@
+{
+  "name": "@internalfx/webhook-testing-server",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "An open source API server for FreeSwitch",
+  "version": "0.0.1",
+  "homepage": "https://github.com/internalfx/webhook-testing-server",
+  "author": {
+    "name": "Bryan Morris",
+    "email": "bryan@internalfx.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/internalfx/webhook-testing-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/internalfx/webhook-testing-server/issues"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "wts": "./bin/wts"
+  },
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "@internalfx/substruct": "^3.0.1",
+    "@nuxtjs/apollo": "^4.0.0-rc6",
+    "@nuxtjs/auth": "^4.7.0",
+    "@nuxtjs/axios": "^5.5.4",
+    "apollo-server-koa": "^2.6.3",
+    "core-js": "2",
+    "graphql": "^14.3.1",
+    "moment": "^2.24.0",
+    "nedb": "^1.8.0",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.8.1",
+    "sass-loader": "^7.1.0",
+    "vuetify": "^1.5.14",
+    "vuex-map-fields": "^1.3.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-vue": "^4.7.1",
+    "standard": "^12.0.1"
+  }
+}
